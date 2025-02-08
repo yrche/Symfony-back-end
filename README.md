@@ -15,7 +15,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/lerapyrkina/symfony2.git
+git clone https://github.com/yrche/Symfony-back-end.git
 cd symfony-app
 ```
 
