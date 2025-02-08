@@ -16,4 +16,11 @@ final class DefaultController extends AbstractController
     {
         return $this->redirectToRoute('app_login');
     }
+
+    #[Route('/user/default', name: 'api_default')]
+    public function local_page(): Response
+    {
+        return $this->render('default/index.html.twig');
+    }
+
 }
